@@ -33,3 +33,8 @@ Body:
         "inistitute": "Enter The Inistitute Here"
     }
 ```
+
+```HTTP
+Method: DELETE
+URL: http://localhost:8083/api/jsdata/{id} #id of the recored to delete
+```
