@@ -18,3 +18,18 @@ docker-compose -f coffeesys/src/main/docker/jhipster-registry.yml up
 Method: GET
 URL: http://localhost:8083/api/jsdata
 ```
+
+```HTTP
+Method: POST
+URL: http://localhost:8083/api/jsdata
+Body:
+    {
+        "gender": "Enter Gender Type Here",
+        "region": "Enter The Region Here",
+        "city": "Enter The City Here",
+        "age": "Enter The Age Here, as Double!",
+        "degree": "Enter The Degree Here",
+        "major": "Enter The Major Here",
+        "inistitute": "Enter The Inistitute Here"
+    }
+```
