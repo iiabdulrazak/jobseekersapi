@@ -15,7 +15,7 @@
                 <constraints primaryKey="true" nullable="false"/>
             </column>
             <column name="gender" type="varchar(20)">
-                <constraints nullable="true" unique="true" uniqueConstraintName="ux_jsdata__gender" />
+                <constraints nullable="true" />
             </column>
             <column name="region" type="varchar(50)">
                 <constraints nullable="true" />
