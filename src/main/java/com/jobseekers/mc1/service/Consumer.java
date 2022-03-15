@@ -29,8 +29,6 @@ public class Consumer {
         this.kafkaProperties = kafkaProperties;
     }
 
-
-
     @Bean
     ConsumerFactory<String, Object> consumerFactory() {
         final JsonDeserializer<Object> jsonDeserializer = new JsonDeserializer<>();
