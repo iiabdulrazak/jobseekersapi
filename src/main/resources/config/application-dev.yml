@@ -32,7 +32,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:postgresql://localhost:5432/jobseekersdb
     username: zaak
-    password: Zaak1234@
+    password: Zaak1234
     hikari:
       poolName: Hikari
       auto-commit: false

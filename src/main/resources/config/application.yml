@@ -174,7 +174,7 @@ spring:
     ansi:
       console-available: true
 tpd:
-  topic-name: advice-topic
+  topic-name: transaction-1
   messages-per-request: 10
 
 server:
@@ -210,7 +210,7 @@ jhipster:
     default-include-pattern: ${server.servlet.context-path:}/api/**
     management-include-pattern: ${server.servlet.context-path:}/management/**
     title: Jobseekersapi API
-    description: Jobseekersapi API documentation
+    description: Jobseekersapi API
     version: 0.0.1
     terms-of-service-url:
     contact-name:
