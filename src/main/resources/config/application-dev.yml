@@ -13,6 +13,13 @@ eureka:
       defaultZone: http://admin:${jhipster.registry.password}@localhost:8761/eureka/
 
 spring:
+  kafka:
+    consumer:
+      group-id: tpd-loggers
+      auto-offset-reset: earliest
+    # change this property if you are using your own
+    # Kafka cluster or your Docker IP is different
+    bootstrap-servers: localhost:9092
   devtools:
     restart:
       enabled: true
@@ -56,6 +63,9 @@ spring:
     locator:
       discovery:
         enabled: true
+tpd:
+  topic-name: advice-topic
+  messages-per-request: 10
 
 server:
   port: 8083
