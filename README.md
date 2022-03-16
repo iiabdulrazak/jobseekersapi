@@ -10,7 +10,13 @@ To start your application in the dev profile, run:
 ## JHipster Registry
 JHipster Registry it is an administration server, with dashboards to monitor and manage applications (localhost:8761)
 ```
-docker-compose -f coffeesys/src/main/docker/jhipster-registry.yml up
+docker-compose -f src/main/docker/jhipster-registry.yml up
+```
+
+## Kafka Support
+Apache Kafka is a distributed event store and stream-processing platform  (localhost:9092)
+```
+docker-compose -f src/main/resources/config/kafka-support.yml up
 ```
 
 ## Supported Request Methods:
